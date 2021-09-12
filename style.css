@@ -1,17 +1,3 @@
-#mustache{
-    width: 150px;
-    background-color: whitesmoke;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position: fixed;
-    bottom: 0;
-    margin-left: 120px;
-}
-
-#mustache img{
-    width: 100px;
-}
 
 @keyframes example{
     from{box-shadow: 1px 1px 38px red;}
@@ -21,22 +7,6 @@
 #take_snapshot{
     position: fixed;
     bottom: 0;
-}
-
-#lipstick{
-    width: 150px;
-    background-color: whitesmoke;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position: fixed;
-    bottom: 0;
-    margin-left: -170px;
-}
-
-
-#lipstick img{
-    width: 100px;
 }
 
 canvas{
